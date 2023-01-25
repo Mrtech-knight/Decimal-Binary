@@ -5,13 +5,14 @@ int main(){
     int n;
     cout<<"enter a num : ";
     cin>>n;
-    int i=0;
+    int j=0;
     int ans=0;
+
     while(n!=0){
         int bits=n&1;
         ans=(bits*pow(10,i))+ans;
         n=n>>1;
-        i++;
+        j++;
     }
     cout <<" Answer is "<<ans<<endl;
 }
