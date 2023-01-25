@@ -10,7 +10,7 @@ int main(){
 
     while(n!=0){
         int bits=n&1;
-        ans=(bits*pow(10,i))+ans;
+        ans=(bits*pow(10,j))+ans;
         n=n>>1;
         j++;
     }
